@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.titlu {
+    text-align: center;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    color: #339933;
+    font-size: 80px;
+    margin-left: 43%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    margin: 70px 0px 0px 0px;
+    color: #339933;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: left;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+        
+}
+
+.fundal {
+    background: white;
+    border: 3px #f1f1f1;
+    box-shadow: 2px 3px 60px 3px #339933;
+    text-align: left;
+}
+
+.asezare {
+    width: calc(33% - 13px);
+    margin-bottom: 20px;
+}
+
+img {
+    transition:transform 0.25s ease;
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover {
+    -webkit-transform:scale(1.1); /* or some other value */
+    transform:scale(1.1);
+
+}
+
+#subsol{ 
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .titlu {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:1280px) {
+    .titlu {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
