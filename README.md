@@ -1,2 +1,2 @@
-# Tema1 Tehnici Web
+# Tema2 Tehnici Web JS
  
