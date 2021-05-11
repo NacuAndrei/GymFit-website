@@ -1,0 +1,24 @@
+{
+  "Reviews": [
+    {
+      "id": 2,
+      "name": "Elena",
+      "comentariu": "Mi-a placut."
+    },
+    {
+      "name": "Matei",
+      "comentariu": "Am fost surprins!",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Radu",
+      "comentariu": "O sala curata!"
+    },
+    {
+      "name": "Maria",
+      "comentariu": "Frumos!!",
+      "id": 5
+    }
+  ]
+}

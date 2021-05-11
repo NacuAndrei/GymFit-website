@@ -1,11 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-html {
-    font-family: 'Open Sans', sans-serif;
-}
-
 body {
     background-image: url('background.jpg');
     background-repeat: no-repeat;
@@ -36,15 +28,6 @@ h1 {
     padding-top: 15px;
 }
 
-.box {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: center;
-    align-items: center;
-        
-}
-
 .fundal {
     background: white;
     border: 3px #f1f1f1;
@@ -52,41 +35,33 @@ h1 {
     text-align: left;
 }
 
-.asezare {
-    width: calc(33% - 13px);
-    margin-bottom: 20px;
-}
-
-img {
-    transition:transform 0.25s ease;
-    max-width: 100%;
-    height: auto;
-}
-
-img:hover {
-    -webkit-transform:scale(1.1); /* or some other value */
-    transform:scale(1.1);
-
-}
-
-#subsol{ 
+#Buton {
     font-size: 15px;
-    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #4CAF50;
+    border:solid green;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition-duration: 0.2s;
 }
 
-@media (max-width: 768px) {
-    .titlu {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
+#Buton:hover {
+    background-color: #4CAF50; 
+    color: white;
+    box-shadow: 2px 3px 20px 3px #339933;
 }
 
-@media (min-width:769px) and (max-width:1280px) {
-    .titlu {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+#name, #comentariu {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 2px 3px 10px 3px #339933;
+    border:solid green;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#comentariu {
+    height: 100px;
+    width: 300px;
 }

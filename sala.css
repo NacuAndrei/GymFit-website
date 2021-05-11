@@ -91,6 +91,23 @@ img {
     padding-left: 20px;
 }
 
+#Buton {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #4CAF50;
+    border:solid green;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition-duration: 0.2s;
+}
+
+#Buton:hover {
+    background-color: #4CAF50; 
+    color: white;
+    box-shadow: 2px 3px 20px 3px #339933;
+}
+
 @media (max-width: 768px) {
     .menu{
         margin: auto;
